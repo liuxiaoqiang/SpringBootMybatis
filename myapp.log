@@ -1,0 +1,196 @@
+2016-02-29 15:20:51.643  INFO 3012 --- [main] com.berwin.cloud.Application             : Starting Application on SKY-20150608NIB with PID 3012 (C:\Users\Administrator\Desktop\SpringBootMybatis\SpringBootMybatis\target\classes started by Administrator in C:\Users\Administrator\Desktop\SpringBootMybatis\SpringBootMybatis)
+2016-02-29 15:20:51.645  INFO 3012 --- [main] com.berwin.cloud.Application             : No active profile set, falling back to default profiles: default
+2016-02-29 15:20:51.692  INFO 3012 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b4946cd: startup date [Mon Feb 29 15:20:51 CST 2016]; root of context hierarchy
+2016-02-29 15:20:52.659  INFO 3012 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-02-29 15:20:53.177  INFO 3012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'druidDataSourceConfig' of type [class com.berwin.cloud.conf.DruidDataSourceConfig$$EnhancerBySpringCGLIB$$d9b2e5a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-29 15:20:53.178  INFO 3012 --- [main] com.berwin.cloud.conf.MybatisConfig      : jdbc.settings=com.berwin.cloud.conf.DruidDataSourceConfig$$EnhancerBySpringCGLIB$$d9b2e5a0@75b21111
+2016-02-29 15:20:53.179  INFO 3012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class com.berwin.cloud.conf.MybatisConfig$$EnhancerBySpringCGLIB$$ce96266c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-29 15:20:53.263  INFO 3012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-29 15:20:53.390  INFO 3012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-29 15:20:53.397  INFO 3012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseDateMapper' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-29 15:20:53.453  INFO 3012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6942cc4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-29 15:20:53.768  INFO 3012 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8999 (http)
+2016-02-29 15:20:53.778  INFO 3012 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-02-29 15:20:53.779  INFO 3012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-02-29 15:20:53.853  INFO 3012 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-02-29 15:20:53.853  INFO 3012 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2163 ms
+2016-02-29 15:20:54.130  INFO 3012 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-02-29 15:20:54.134  INFO 3012 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-02-29 15:20:54.134  INFO 3012 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-02-29 15:20:54.134  INFO 3012 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-02-29 15:20:54.134  INFO 3012 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-02-29 15:20:54.229  INFO 3012 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2016-02-29 15:20:54.413  INFO 3012 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-02-29 15:20:54.423  INFO 3012 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-02-29 15:20:54.488  INFO 3012 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-02-29 15:20:54.489  INFO 3012 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-02-29 15:20:54.490  INFO 3012 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-02-29 15:20:54.686  INFO 3012 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-29 15:20:54.733  INFO 3012 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-02-29 15:20:54.773  INFO 3012 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-02-29 15:20:55.072  INFO 3012 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b4946cd: startup date [Mon Feb 29 15:20:51 CST 2016]; root of context hierarchy
+2016-02-29 15:20:55.148  INFO 3012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home/data]}" onto public org.springframework.web.servlet.ModelAndView com.berwin.cloud.controller.HomeController.find(org.springframework.ui.Model)
+2016-02-29 15:20:55.149  INFO 3012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home/list]}" onto public java.lang.String com.berwin.cloud.controller.HomeController.Hello()
+2016-02-29 15:20:55.151  INFO 3012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-02-29 15:20:55.151  INFO 3012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-02-29 15:20:55.183  INFO 3012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-29 15:20:55.184  INFO 3012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-29 15:20:55.230  INFO 3012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-29 15:20:55.466  INFO 3012 --- [main] o.s.w.s.v.velocity.VelocityConfigurer    : ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2016-02-29 15:20:55.470 DEBUG 3012 --- [main] org.apache.velocity                      : CommonsLogLogChute name is 'org.apache.velocity'
+2016-02-29 15:20:55.470 DEBUG 3012 --- [main] org.apache.velocity                      : Initializing Velocity, Calling init()...
+2016-02-29 15:20:55.470 DEBUG 3012 --- [main] org.apache.velocity                      : Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2016-02-29 15:20:55.470 DEBUG 3012 --- [main] org.apache.velocity                      : Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2016-02-29 15:20:55.475 DEBUG 3012 --- [main] org.apache.velocity                      : ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-02-29 15:20:55.476 DEBUG 3012 --- [main] org.apache.velocity                      : Do unicode file recognition:  false
+2016-02-29 15:20:55.476 DEBUG 3012 --- [main] org.apache.velocity                      : FileResourceLoader : adding path 'C:\Users\Administrator\Desktop\SpringBootMybatis\SpringBootMybatis\target\classes\templates'
+2016-02-29 15:20:55.477 DEBUG 3012 --- [main] org.apache.velocity                      : ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2016-02-29 15:20:55.485 DEBUG 3012 --- [main] org.apache.velocity                      : ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2016-02-29 15:20:55.487 DEBUG 3012 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2016-02-29 15:20:55.488 DEBUG 3012 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2016-02-29 15:20:55.488 DEBUG 3012 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2016-02-29 15:20:55.489 DEBUG 3012 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2016-02-29 15:20:55.490 DEBUG 3012 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2016-02-29 15:20:55.490 DEBUG 3012 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2016-02-29 15:20:55.491 DEBUG 3012 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2016-02-29 15:20:55.492 DEBUG 3012 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2016-02-29 15:20:55.493 DEBUG 3012 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2016-02-29 15:20:55.513 DEBUG 3012 --- [main] org.apache.velocity                      : Created '20' parsers.
+2016-02-29 15:20:55.518 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : adding VMs from VM library : org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.598 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springMessage: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.598 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springMessageText: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.598 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springTheme: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.598 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springThemeText: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.598 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springUrl: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.599 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springBind: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.599 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springBindEscaped: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.599 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormInput: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.600 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormPasswordInput: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.600 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormHiddenInput: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.600 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormTextarea: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.601 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormSingleSelect: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.601 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormMultiSelect: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.602 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormRadioButtons: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.603 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormCheckboxes: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.604 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormCheckbox: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.604 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springShowErrors: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.604 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springCloseTag: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.604 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : added VM springXmlId: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-02-29 15:20:55.604 DEBUG 3012 --- [main] org.apache.velocity                      : ResourceManager : found org/springframework/web/servlet/view/velocity/spring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2016-02-29 15:20:55.605 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : allowInline = true : VMs can be defined inline in templates
+2016-02-29 15:20:55.605 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2016-02-29 15:20:55.605 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2016-02-29 15:20:55.605 DEBUG 3012 --- [main] org.apache.velocity                      : Velocimacro : autoload off : VM system will not automatically reload global library macros
+2016-02-29 15:20:55.694  INFO 3012 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-02-29 15:20:55.695  INFO 3012 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2016-02-29 15:20:55.699  INFO 3012 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2016-02-29 15:20:55.754  INFO 3012 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8999 (http)
+2016-02-29 15:20:55.758  INFO 3012 --- [main] com.berwin.cloud.Application             : Started Application in 4.389 seconds (JVM running for 4.755)
+2016-02-29 15:21:15.764  INFO 3012 --- [http-nio-8999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-02-29 15:21:15.764  INFO 3012 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-02-29 15:21:15.778  INFO 3012 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2016-02-29 15:21:15.939 ERROR 3012 --- [http-nio-8999-exec-2] org.apache.velocity                      : ResourceManager : unable to find resource 'error.vm' in any resource loader.
+2016-02-29 15:21:21.112 ERROR 3012 --- [http-nio-8999-exec-3] org.apache.velocity                      : ResourceManager : unable to find resource 'error.vm' in any resource loader.
+2016-02-29 15:21:56.565  INFO 3012 --- [http-nio-8999-exec-5] c.b.c.service.impl.BaseDateServiceImpl   : service get data is : [BaseDate [tx_id=1, tx_data=wqewqe, tx_data_name=wqasads], BaseDate [tx_id=2, tx_data=zxcasa, tx_data_name=safawqw], BaseDate [tx_id=3, tx_data=wqewqdas, tx_data_name=sadsa]]
+2016-02-29 15:21:56.566  INFO 3012 --- [http-nio-8999-exec-5] c.b.cloud.controller.HomeController      : 查询得到的list为： [BaseDate [tx_id=1, tx_data=wqewqe, tx_data_name=wqasads], BaseDate [tx_id=2, tx_data=zxcasa, tx_data_name=safawqw], BaseDate [tx_id=3, tx_data=wqewqdas, tx_data_name=sadsa]]
+2016-02-29 15:21:56.571 DEBUG 3012 --- [http-nio-8999-exec-5] org.apache.velocity                      : ResourceManager : found index.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-03-08 14:06:29.608  INFO 17428 --- [main] com.berwin.cloud.Application             : Starting Application on SKY-20150608NIB with PID 17428 (C:\Users\Administrator\Desktop\SpringBootMybatis\SpringBootMybatis\target\classes started by Administrator in C:\Users\Administrator\Desktop\SpringBootMybatis\SpringBootMybatis)
+2016-03-08 14:06:29.611  INFO 17428 --- [main] com.berwin.cloud.Application             : No active profile set, falling back to default profiles: default
+2016-03-08 14:06:29.721  INFO 17428 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1613674b: startup date [Tue Mar 08 14:06:29 CST 2016]; root of context hierarchy
+2016-03-08 14:06:30.497  INFO 17428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-03-08 14:06:30.995  INFO 17428 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'druidDataSourceConfig' of type [class com.berwin.cloud.conf.DruidDataSourceConfig$$EnhancerBySpringCGLIB$$44524ce5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-08 14:06:30.997  INFO 17428 --- [main] com.berwin.cloud.conf.MybatisConfig      : jdbc.settings=com.berwin.cloud.conf.DruidDataSourceConfig$$EnhancerBySpringCGLIB$$44524ce5@4b97c4ad
+2016-03-08 14:06:30.998  INFO 17428 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class com.berwin.cloud.conf.MybatisConfig$$EnhancerBySpringCGLIB$$39358db1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-08 14:06:31.071  INFO 17428 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-08 14:06:31.185  INFO 17428 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-08 14:06:31.190  INFO 17428 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseDateMapper' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-08 14:06:31.217  INFO 17428 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3e23394] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-03-08 14:06:31.551  INFO 17428 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8999 (http)
+2016-03-08 14:06:31.563  INFO 17428 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-03-08 14:06:31.564  INFO 17428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-03-08 14:06:31.661  INFO 17428 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-03-08 14:06:31.662  INFO 17428 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1944 ms
+2016-03-08 14:06:31.938  INFO 17428 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-03-08 14:06:31.942  INFO 17428 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-03-08 14:06:31.942  INFO 17428 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-03-08 14:06:31.943  INFO 17428 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-03-08 14:06:31.943  INFO 17428 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-03-08 14:06:32.041  INFO 17428 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2016-03-08 14:06:32.261  INFO 17428 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-03-08 14:06:32.270  INFO 17428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-03-08 14:06:32.334  INFO 17428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-03-08 14:06:32.336  INFO 17428 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-03-08 14:06:32.337  INFO 17428 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-03-08 14:06:32.575  INFO 17428 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-03-08 14:06:32.619  INFO 17428 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-03-08 14:06:32.655  INFO 17428 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-03-08 14:06:32.947  INFO 17428 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1613674b: startup date [Tue Mar 08 14:06:29 CST 2016]; root of context hierarchy
+2016-03-08 14:06:33.010  INFO 17428 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home/data]}" onto public org.springframework.web.servlet.ModelAndView com.berwin.cloud.controller.HomeController.find(org.springframework.ui.Model)
+2016-03-08 14:06:33.011  INFO 17428 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home/list]}" onto public java.lang.String com.berwin.cloud.controller.HomeController.Hello()
+2016-03-08 14:06:33.012  INFO 17428 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-03-08 14:06:33.012  INFO 17428 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-03-08 14:06:33.038  INFO 17428 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-03-08 14:06:33.038  INFO 17428 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-03-08 14:06:33.074  INFO 17428 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-03-08 14:06:33.281  INFO 17428 --- [main] o.s.w.s.v.velocity.VelocityConfigurer    : ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2016-03-08 14:06:33.285 DEBUG 17428 --- [main] org.apache.velocity                      : CommonsLogLogChute name is 'org.apache.velocity'
+2016-03-08 14:06:33.285 DEBUG 17428 --- [main] org.apache.velocity                      : Initializing Velocity, Calling init()...
+2016-03-08 14:06:33.285 DEBUG 17428 --- [main] org.apache.velocity                      : Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2016-03-08 14:06:33.285 DEBUG 17428 --- [main] org.apache.velocity                      : Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2016-03-08 14:06:33.290 DEBUG 17428 --- [main] org.apache.velocity                      : ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2016-03-08 14:06:33.291 DEBUG 17428 --- [main] org.apache.velocity                      : Do unicode file recognition:  false
+2016-03-08 14:06:33.291 DEBUG 17428 --- [main] org.apache.velocity                      : FileResourceLoader : adding path 'C:\Users\Administrator\Desktop\SpringBootMybatis\SpringBootMybatis\target\classes\templates'
+2016-03-08 14:06:33.291 DEBUG 17428 --- [main] org.apache.velocity                      : ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2016-03-08 14:06:33.299 DEBUG 17428 --- [main] org.apache.velocity                      : ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2016-03-08 14:06:33.300 DEBUG 17428 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2016-03-08 14:06:33.301 DEBUG 17428 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2016-03-08 14:06:33.302 DEBUG 17428 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2016-03-08 14:06:33.302 DEBUG 17428 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2016-03-08 14:06:33.303 DEBUG 17428 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2016-03-08 14:06:33.304 DEBUG 17428 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2016-03-08 14:06:33.305 DEBUG 17428 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2016-03-08 14:06:33.306 DEBUG 17428 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2016-03-08 14:06:33.306 DEBUG 17428 --- [main] org.apache.velocity                      : Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2016-03-08 14:06:33.326 DEBUG 17428 --- [main] org.apache.velocity                      : Created '20' parsers.
+2016-03-08 14:06:33.330 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : adding VMs from VM library : org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.427 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springMessage: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.427 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springMessageText: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.427 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springTheme: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.427 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springThemeText: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.427 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springUrl: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.428 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springBind: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.428 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springBindEscaped: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.428 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormInput: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.429 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormPasswordInput: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.429 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormHiddenInput: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.429 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormTextarea: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.430 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormSingleSelect: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.431 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormMultiSelect: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.432 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormRadioButtons: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.432 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormCheckboxes: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.433 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springFormCheckbox: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.434 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springShowErrors: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.434 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springCloseTag: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.434 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : added VM springXmlId: source=org/springframework/web/servlet/view/velocity/spring.vm
+2016-03-08 14:06:33.434 DEBUG 17428 --- [main] org.apache.velocity                      : ResourceManager : found org/springframework/web/servlet/view/velocity/spring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2016-03-08 14:06:33.434 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : allowInline = true : VMs can be defined inline in templates
+2016-03-08 14:06:33.435 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2016-03-08 14:06:33.435 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2016-03-08 14:06:33.435 DEBUG 17428 --- [main] org.apache.velocity                      : Velocimacro : autoload off : VM system will not automatically reload global library macros
+2016-03-08 14:06:33.573  INFO 17428 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-03-08 14:06:33.574  INFO 17428 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2016-03-08 14:06:33.578  INFO 17428 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2016-03-08 14:06:33.641  INFO 17428 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8999 (http)
+2016-03-08 14:06:33.645  INFO 17428 --- [main] com.berwin.cloud.Application             : Started Application in 4.295 seconds (JVM running for 4.741)
+2016-03-08 14:07:05.314  INFO 17428 --- [http-nio-8999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-03-08 14:07:05.314  INFO 17428 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-03-08 14:07:05.329  INFO 17428 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2016-03-08 14:07:06.145 ERROR 17428 --- [http-nio-8999-exec-2] org.apache.velocity                      : ResourceManager : unable to find resource 'error.vm' in any resource loader.
+2016-03-08 14:07:10.734 ERROR 17428 --- [http-nio-8999-exec-3] org.apache.velocity                      : ResourceManager : unable to find resource 'error.vm' in any resource loader.
+2016-03-08 14:07:35.724  INFO 17428 --- [http-nio-8999-exec-5] c.b.c.service.impl.BaseDateServiceImpl   : service get data is : [BaseDate [tx_id=1, tx_data=wqewqe, tx_data_name=wqasads], BaseDate [tx_id=2, tx_data=zxcasa, tx_data_name=safawqw], BaseDate [tx_id=3, tx_data=wqewqdas, tx_data_name=sadsa]]
+2016-03-08 14:07:35.725  INFO 17428 --- [http-nio-8999-exec-5] c.b.cloud.controller.HomeController      : 查询得到的list为： [BaseDate [tx_id=1, tx_data=wqewqe, tx_data_name=wqasads], BaseDate [tx_id=2, tx_data=zxcasa, tx_data_name=safawqw], BaseDate [tx_id=3, tx_data=wqewqdas, tx_data_name=sadsa]]
+2016-03-08 14:07:35.733 DEBUG 17428 --- [http-nio-8999-exec-5] org.apache.velocity                      : ResourceManager : found index.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
